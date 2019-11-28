@@ -1,0 +1,107 @@
+.dropdown {
+    margin: 20px 20px;
+    width:280px;
+    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    position: relative;
+}
+
+.dropbtn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    line-height:40px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: red;
+    color:white;
+    font-size:25px;
+}
+
+.dropdown-content{
+    border-radius: 5px;
+    display: none;
+    position:absolute;
+}
+
+.dropdown-content a{
+    display:block;
+    margin-top:-46px;
+    margin-left:70px;
+    line-height:52px;
+    font-size:25px;
+    color:white;
+    text-decoration:none;
+}
+
+.dropdown-content a:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.message .img{
+    background-image:url('3.png'),linear-gradient(#f00,#f00);
+    background-blend-mode: lighten;
+    background-size:220px 150px;
+    background-position:0px 2px;
+    width:50px;
+    height:50px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.heart .img{
+    background-image:url('3.png'),linear-gradient(#f00,#f00);
+    background-blend-mode: lighten;
+    background-size:220px 156px;
+    background-position:0px -70px;
+    width:50px;
+    height:50px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.star .img{
+    background-image:url('3.png'),linear-gradient(#f00,#f00);
+    background-blend-mode: lighten;
+    background-position:-93px 2px;
+    width:50px;
+    height:50px;
+    margin-left: 5px;
+    margin-top: 2px;
+    transform:scale(50%,50%);
+}
+
+ul{
+    margin-top:13px;
+    padding:0;
+    border-radius:5px;
+}
+
+li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: none;
+    width: 280px;
+    background-color: red; 
+    border-bottom: 0.5px bisque solid; 
+}
+
+.arrow-down {
+    display: inline-block;
+    border-left:15px solid transparent;
+    border-right:15px solid transparent;
+    border-top:15px solid white;
+}
+
+.triangle-up {
+    position: absolute;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid red;
+    top:0;
+    left:228px;
+}
